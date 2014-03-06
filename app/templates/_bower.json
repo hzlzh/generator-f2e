@@ -1,0 +1,9 @@
+{
+  "name": "<%= _.slugify(projectName) %>",
+  "version": "<%= version %>",
+  "dependencies": {<% if (includeJquery) { %>
+  	"jquery": "*",<% } %> <% if (includeJquerymobile) { %>
+  	"jquery-mobile": "*",<% } %> <% if (includeBootstrap) { %>
+  	"bootstrap": "*"<% } %>
+  }
+}
