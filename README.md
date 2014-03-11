@@ -1,4 +1,4 @@
-# generator-f2e [![Build Status](https://secure.travis-ci.org/hzlzh/generator-f2e.png?branch=master)](https://travis-ci.org/hzlzh/generator-f2e)
+# generator-f2e [![NPM version](https://badge.fury.io/js/generator-f2e.png)](http://badge.fury.io/js/generator-f2e)
 
 > A Yeoman generator for f2e.
 
