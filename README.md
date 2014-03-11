@@ -1,6 +1,6 @@
 # generator-f2e [![NPM version](https://badge.fury.io/js/generator-f2e.png)](http://badge.fury.io/js/generator-f2e)
 
-> A Yeoman generator for f2e.
+> A Yeoman generator for [f2e-workflow](hzlzh/generator-f2e https://github.com/hzlzh/f2e-workflow)
 
 ## Getting Started
 

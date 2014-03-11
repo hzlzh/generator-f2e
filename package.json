@@ -1,14 +1,16 @@
 {
   "name": "generator-f2e",
   "version": "1.5.6",
-  "description": "Yeoman generator for f2e",
+  "description": "Yeoman generator for f2e-workflow",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "hzlzh/generator-f2e",
+  "repository": "git://github.com/hzlzh/generator-f2e",
   "author": {
     "name": "hzlzh",
-    "email": "hzlzh.dev@gmail.com",
-    "url": "https://github.com/hzlzh"
+    "email": "hzlzh.dev@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/hzlzh/generator-f2e/issues"
   },
   "engines": {
     "node": ">=0.8.0"
@@ -20,7 +22,13 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "sprite",
+    "retina",
+    "mobile",
+    "yeoman-generator",
+    "f2e",
+    "grunt",
+    "workflow"
   ],
   "dependencies": {
     "yeoman-generator": "~0.16.0",
