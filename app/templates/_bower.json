@@ -1,9 +1,18 @@
 {
   "name": "<%= _.slugify(projectName) %>",
   "version": "<%= version %>",
-  "dependencies": {<% if (includeJquery) { %>
-  	"jquery": "*",<% } %> <% if (includeJquerymobile) { %>
-  	"jquery-mobile": "*",<% } %> <% if (includeBootstrap) { %>
-  	"bootstrap": "*"<% } %>
+  "dependencies": {<%
+    var depn = [];
+    if (includeJquery) {
+      depn.push('\n    "jquery": "*"');
+    }
+    if (includeJquerymobile) {
+      depn.push('\n    "jquery-mobile": "*"');
+    }
+    if (includeBootstrap) {
+      depn.push('\n    "bootstrap": "*"');
+    }
+    print(depn.join(','));
+  %>
   }
 }
