@@ -2,6 +2,9 @@
 
 > A Yeoman generator for [f2e-workflow](https://github.com/hzlzh/f2e-workflow)
 
+Home Page: [https://www.npmjs.org/package/generator-f2e](https://www.npmjs.org/package/generator-f2e)
+
+
 ## Getting Started
 
 1. Install: `npm install -g generator-f2e`
