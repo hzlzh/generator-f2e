@@ -1,6 +1,6 @@
 {
   "name": "generator-f2e",
-  "version": "1.5.8",
+  "version": "1.6.0",
   "description": "Yeoman generator for f2e-workflow",
   "license": "MIT",
   "main": "app/index.js",
